@@ -1,5 +1,6 @@
 import "./App.css";
 import CssBaseline from '@mui/material/CssBaseline';
+
 import { Box } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
 import Home from "./subpages/Home";
@@ -17,7 +18,6 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <CssBaseline />
       <Box>
         <Navbar />
         <Routes>

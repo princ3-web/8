@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Box from "@mui/material/Box";
-
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import IconButton from "@mui/material/IconButton";

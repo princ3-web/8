@@ -1,6 +1,4 @@
 import React from "react";
-import { Box } from "@mui/material";
-
 import { useInView } from "react-intersection-observer";
 
 const Animated = ({ children, style }) => {
