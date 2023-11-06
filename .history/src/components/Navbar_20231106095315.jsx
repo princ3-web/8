@@ -70,7 +70,7 @@ const Navbar = () => {
             component="img"
             src={logo}
             alt=""
-            sx={{ height: "40px", p: "0.5rem" }}
+            sx={{ height: "30px", p: "0.5rem" }}
           />
         </Box>
         <Box
