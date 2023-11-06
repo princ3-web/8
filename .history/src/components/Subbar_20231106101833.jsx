@@ -8,7 +8,7 @@ const Subbar = () => {
     {
       title: "PRODENT",
       items: [
-        "At Prodent Dentist Services, our dedicated team of experienced dental professionals is committed to providing top-quality care, ensuring your smile shines with health and confidence.",
+        "Consulting WP - Before we talk destination, we shine a spotlight across your organization to fully understand its people, processes, and technology.",
       ],
     },
     {

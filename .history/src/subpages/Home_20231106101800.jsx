@@ -265,30 +265,30 @@ const Home = () => {
       <Menu />
       <Box sx={{ boxSizing: "border-box", px: "160px", py: "120px" }}>
         <Typography variant="h3">Who we are</Typography>
-        <Box sx={{ display: "flex", width: "50%" }}>
-          <CardMedia
-            component="img"
-            src={image1}
-            alt=""
-            sx={{ width: "300px", height: "300px", mt: "1rem" }}
-          />
+          <Box sx={{ display: "flex", width: "50%" }}>
+            <CardMedia
+              component="img"
+              src={image1}
+              alt=""
+              sx={{ width: "300px", height: "300px", mt: "1rem" }}
+            />
 
-          <Box sx={{ p: "1rem" }}>
-            <Typography variant="h5" sx={{ mb: "1rem" }} color={brown[900]}>
-              Prodent Dentist Services is a leading dental care provider
-            </Typography>
+            <Box sx={{ p: "1rem" }}>
+              <Typography variant="h5" sx={{ mb: "1rem" }} color={brown[900]}>
+                Prodent Dentist Services is a leading dental care provider
+              </Typography>
 
-            <Typography variant="subtitle2">
-              At Prodent Dentist Services, we believe in the importance of personalized care. We
-              take the time to listen to your concerns, answer your questions, and tailor our
-              services to your unique needs. Whether you require a simple dental cleaning or more
-              complex procedures, our commitment to excellence remains unwavering.
-            </Typography>
+              <Typography variant="subtitle2">
+                At Prodent Dentist Services, we believe in the importance of personalized care. We
+                take the time to listen to your concerns, answer your questions, and tailor our
+                services to your unique needs. Whether you require a simple dental cleaning or more
+                complex procedures, our commitment to excellence remains unwavering.
+              </Typography>
+            </Box>
           </Box>
-        </Box>
       </Box>
       <Box sx={{ backgroundColor: grey[200], display: "flex" }}>
-        <CardMedia component="img" src={image5} alt="" sx={{ width: "50%", height: "100%" }} />
+          <CardMedia component="img" src={image5} alt="" sx={{ width: "50%", height: "100%" }} />
         <Box
           sx={{
             display: "flex",
@@ -388,7 +388,7 @@ const Home = () => {
             </Box>
           </Box>
         </Box>
-        <CardMedia component="img" src={image6} alt="" sx={{ width: "50%", height: "100%" }} />
+          <CardMedia component="img" src={image6} alt="" sx={{ width: "50%", height: "100%" }} />
       </Box>
       <Box
         sx={{
