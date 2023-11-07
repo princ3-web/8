@@ -7,7 +7,6 @@ import About from "./subpages/About";
 import Navbar from "./components/Navbar";
 import Subbar from "./components/Subbar";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import MessengerWidget from "./components/MessengerWidget";
 
 function App() {
   const theme = createTheme({
