@@ -1,5 +1,5 @@
 import "./App.css";
-import CssBaseline from "@mui/material/CssBaseline";
+import CssBaseline from '@mui/material/CssBaseline';
 import { Box } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
 import Home from "./subpages/Home";
